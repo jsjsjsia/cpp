@@ -5,14 +5,20 @@ int dem[1000001];
 void coutingSort(int arr[], int n)
 {
     int K = -1e9;
-    for (int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++)
+    {
         dem[arr[i]]++;
         K = max(K, arr[i]);
     }
-    for (int i = 0; i < n; i++){
-        if(dem[i] == 0){
-            for (int j = i; j < n; j++){
+    for (int i = 0; i <= K; i++)
+    {
+        if(dem[i])
+        {
+            for (int j = 0; j < dem[i]; j++)
+            {
                 cout << i<< " ";
+            }
+        }
     }
 }
 
