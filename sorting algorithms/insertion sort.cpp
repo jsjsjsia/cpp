@@ -8,7 +8,7 @@ void insertionSort(int a[], int n){
         while(pos >= 0 && a[pos] > x){
             a[pos + 1] = a[pos];
             --pos;
-            cout << pos << " " << x << " " << a[pos + 1] << " " << a [pos] << endl;
+            // cout << pos << " " << x << " " << a[pos + 1] << " " << a [pos] << endl;
         }
         a[pos + 1] = x;
     }
