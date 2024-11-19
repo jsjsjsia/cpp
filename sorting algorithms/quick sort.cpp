@@ -33,17 +33,16 @@ void printArray(int arr[], int size)
     cout << endl;
 }
 
-int main()
-{
-    int arr[] = { 12, 11, 13, 5, 6, 7 };
-    int arr_size = sizeof(arr) / sizeof(arr[0]);
 
-    cout << "Given array is \n";
-    printArray(arr, arr_size);
-
-    quickSort(arr, 0, arr_size - 1);
-
-    cout << "\nSorted array is \n";
-    printArray(arr, arr_size);
-    return 0;
+int main(){
+    int n;
+    cin >> n;
+    int a[n];
+    for(int i = 0; i < n; i++){
+        cin >> a[i];
+    }
+    quickSort(a, 0, n-1);
+    for(int i = 0; i < n; i++){
+        cout << a[i] << " ";
+    }
 }

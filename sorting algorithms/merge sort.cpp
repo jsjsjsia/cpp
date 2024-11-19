@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <iostream>
 using namespace std;
 
@@ -58,20 +59,16 @@ void mergeSort(int arr[], int l, int r)
     }
 }
 
-int main()
-{
-    int arr[] = { 12, 11, 13, 5, 6, 7 };
-    int arr_size = sizeof(arr) / sizeof(arr[0]);
 
-    cout << "Given array is \n";
-    for (int i = 0; i < arr_size; i++)
-        cout << arr[i] << " ";
-
-    mergeSort(arr, 0, arr_size - 1);
-
-    cout << "\nSorted array is \n";
-    for (int i = 0; i < arr_size; i++)
-        cout << arr[i] << " ";
-
-    return 0;
+int main(){
+    int n;
+    cin >> n;
+    int a[n];
+    for(int i = 0; i < n; i++){
+        cin >> a[i];
+    }
+    mergeSort(a, 0, n-1);
+    for(int i = 0; i < n; i++){
+        cout << a[i] << " ";
+    }
 }
