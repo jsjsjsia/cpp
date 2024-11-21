@@ -7,8 +7,8 @@ int main(){
     cout << a << endl;
     cout << a + n << endl;
     cout << &a[0] << endl;
-    sort (a, a + n);
-    cout << sort (a, a + n, greater<int>());
+    (a, a + n);
+    sort (a, a + n, greater<int>());
     // sort (a + x, a + y + 1);
     // sort (a + x, a + y + 1, greater<int>());
     // sort (v.begin(), v.end());
