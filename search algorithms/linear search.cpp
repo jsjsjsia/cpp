@@ -15,10 +15,15 @@ bool linearSearch(int arr[], int n, int x)
 
 int main()
 {
-    int arr[] = {2, 3, 4, 10, 40};
-    int x = 10;
-    int n = sizeof(arr) / sizeof(arr[0]);
-
+    int n;
+    int x;
+    cin >> n;
+    int arr[n];
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+    cin >> x;
     if (linearSearch(arr, n, x))
     {
         cout << "Element found";
