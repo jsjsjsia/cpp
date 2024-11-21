@@ -8,6 +8,11 @@ int main(){
     cout << a + n << endl;
     cout << &a[0] << endl;
     sort (a, a + n);
-    sort (a, a + n, greater<int>());
-    cout << a;
+    cout << sort (a, a + n, greater<int>());
+    // sort (a + x, a + y + 1);
+    // sort (a + x, a + y + 1, greater<int>());
+    // sort (v.begin(), v.end());
+    // sort (v.begin(), v.end(), greater<int>());
+    // sort (v.begin() + x, v.end() + y);
+    // sort (v.begin() + x, v.end() + y, greater<int>());
 }
