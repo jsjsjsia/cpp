@@ -14,12 +14,7 @@ int sum(int n)
 
 bool cmp(int a, int b)
 {
-    if (sum (a) != sum (b)){
-        return sum (a) < sum (b);
-    }
-    else {
-        return a < b;
-    }
+    return sum (a) < sum (b);
 }
 
 int main()
@@ -31,7 +26,7 @@ int main()
     {
         cin >> arr[i];
     }
-    sort(arr, arr + n, cmp);
+    stable_sort(arr, arr + n, cmp);
     for (int x : arr)
     {
         cout << x << " ";

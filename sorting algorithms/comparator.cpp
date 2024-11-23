@@ -2,7 +2,7 @@
 using namespace std;
 
 bool cmp(int a, int b) {
-    return a > b;
+    return abs(a) < abs(b);
 }
 
 int main() {
