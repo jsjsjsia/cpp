@@ -26,7 +26,7 @@ int fibonacci(int n) {
 }
 
 int nCk(int n, int k) {
-    if (k == 0) {
+    if (k == 0 || k == n) {
         return 1;
     }
     return nCk(n - 1, k - 1) + nCk(n - 1, k);
@@ -42,7 +42,7 @@ int sumDigit(int n) {
 int main() {
     int n, k;
     cin >> n;
-    // cin >> k;
-    cout << sumDigit(n) << endl;
+    cin >> k;
+    cout << nCk(n, k);
     return 0;
 }
