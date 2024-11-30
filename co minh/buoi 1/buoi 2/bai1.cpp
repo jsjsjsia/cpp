@@ -36,8 +36,8 @@ void tim(int i)
 
 int main()
 {
-    // freopen("so.inp", "r", stdin);
-    // freopen("so.out", "w", stdout);
+    freopen("so.inp", "r", stdin);
+    freopen("so.out", "w", stdout);
     init();
     tim(1);
 }
