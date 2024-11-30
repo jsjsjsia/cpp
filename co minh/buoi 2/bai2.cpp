@@ -5,14 +5,14 @@ int x[11], n, k, a[11];
 
 void init(){
     cin >> k >> n;
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
         cin >> a[i];
     }
 }
 
 void output(){
-    for (int i = 0; i < k; i++)
+    for (int i = 1; i <= k; i++)
     {
         cout << a[x[i]] << " ";
     }
