@@ -2,12 +2,11 @@
 using namespace std;
 int x[11], n, k, a[11];
 
-void init()
-{
+void init() {
     cin >> k >> n;
     for(int i = 1; i <= n; i++)
     {
-        cin >> a[1];
+        cin >> a[i];
     }
     x[0] = 0;
 }

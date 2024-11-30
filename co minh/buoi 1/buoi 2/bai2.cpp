@@ -1,3 +1,4 @@
+#include <cstdio>
 #include <iostream>
 using namespace std;
 int x[11], n, k, a[11];
@@ -11,7 +12,7 @@ void init(){
 }
 
 void output(){
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < k; i++)
     {
         cout << a[x[i]] << " ";
     }
@@ -30,6 +31,8 @@ void tim(int i){
 }
 
 int main(){
+    freopen("so.inp", "r", stdin);
+    freopen("so.out", "w", stdout);
     init();
     tim(1);
     return 0;
