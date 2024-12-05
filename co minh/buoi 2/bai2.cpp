@@ -1,4 +1,3 @@
-#include <cstdio>
 #include <iostream>
 using namespace std;
 int x[11], n, k, a[11];

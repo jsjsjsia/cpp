@@ -20,20 +20,20 @@ void output()
     cout << endl;
 }
 
-void tim(int i)
+void tim(int i)  // Hàm đệ quy để sinh các tổ hợp
 {
-    for (int j = 1; j <= n; j++)
+    for (int j = 1; j <= n; j++)  // Duyệt qua từng vị trí trong mảng
     {
-        if (d[j] == 0)
+        if (d[j] == 0)  // Kiểm tra xem vị trí j đã được chọn chưa
         {
-            x[i] = j;
-            d[j] = 1;
-            if (i == k)
+            x[i] = j;   // Lưu vị trí j vào tổ hợp hiện tại
+            d[j] = 1;   // Đánh dấu vị trí j đã được sử dụng
+            if (i == k)  // Nếu đã chọn đủ k phần tử
             {
-                output();
+                output();  // In ra tổ hợp hiện tại
             }
-            else tim(i + 1);
-            d[j] = 0;
+            else tim(i + 1);  // Nếu chưa đủ k phần tử thì tiếp tục đệ quy
+            d[j] = 0;   // Đặt lại trạng thái để thử các tổ hợp khác
         }
     }
 }
