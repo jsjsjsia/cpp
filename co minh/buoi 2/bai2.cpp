@@ -22,6 +22,7 @@ void tim(int i){
     for(int j = 1; j <= n; j++)
     {
         x[i] = j;
+        cout << "i: "  << i << " j: " << j << " x" << i << " = " << x[i] << endl;
         if (i == k){
             output();
         }

@@ -38,4 +38,5 @@ void tim(int i)
 int main()
 {
     init();
+    tim (1);
 }
