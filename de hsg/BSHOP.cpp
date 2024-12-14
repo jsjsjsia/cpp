@@ -17,8 +17,10 @@ bool compareByPrice(const Product& a, const Product& b) {
 }
 
 int main() {
-    freopen("BSHOP.INP", "r", stdin);
-    freopen("BSHOP.OUT", "w", stdout);
+    freopen("so.inp", "r", stdin);
+    freopen("so.out", "w", stdout);
+
+    // Đọc số lượng sản phẩm
     int n;
     cin >> n;
 
@@ -57,7 +59,7 @@ int main() {
 
         // Xuất kết quả
         if (found) {
-            cout << maxCustomers << "\n";
+            cout << bestPrice << " " << maxCustomers << "\n";
         } else {
             cout << 0 << "\n";
         }
