@@ -17,8 +17,8 @@ bool compareByPrice(const Product& a, const Product& b) {
 }
 
 int main() {
-    freopen("so.inp", "r", stdin);
-    freopen("so.out", "w", stdout);
+    freopen("de hsg/BSHOP.INP", "r", stdin);
+    freopen("de hsg/BSHOP.OUT", "w", stdout);
 
     // Đọc số lượng sản phẩm
     int n;
