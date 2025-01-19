@@ -2,7 +2,7 @@
 #include <cstring>
 using namespace std;
 
-int a[102], s1[102], L[10002], T[10002], b[102];
+int a[102], sl[102], L[10002], T[10002], b[102];
 int n, m, res, w;
 void doc()
 {
@@ -49,12 +49,12 @@ void inkq()
         do
         {
             j = T[v];
-            s1[j]++;
+            sl[j]++;
             v -= a[j];
         } while (L[v] != 0);
         for (int i = 1; i <= n; i++)
         {
-            cout << s1[i] << " ";
+            cout << sl[i] << " ";
         }
     }
 }

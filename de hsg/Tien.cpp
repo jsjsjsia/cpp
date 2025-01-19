@@ -1,7 +1,7 @@
 #include <cstring>
 #include <iostream>
 using namespace std;
-int a[1002], s1[1002], L[100002], T[100002];
+int a[1002], sl[1002], L[100002], T[100002];
 int n, m, res;
 void doc()
 {
@@ -37,12 +37,12 @@ void inkq() {
     cout << L[m] << endl;
     do {
         j = T[m];
-        s1[j]++;
+        sl[j]++;
         m -= a[j];
     } while (L[m] != 0);
     for (int i = 1; i <= n; i++)
     {
-        cout << s1[i] << " ";
+        cout << sl[i] << " ";
     }
 }
 
