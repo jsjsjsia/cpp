@@ -20,12 +20,15 @@ void xuly()
     L[0] = 0;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = w; j >= a[i]; j++)
+        for (int j = 1; j <=w ;j++)
         {
-            if ((L[j - a[i]] + b[i] > L[j]) || (L[j] == 0))
+            if (a[i] <= j)
             {
-                L[j] = L[j - a[i]] + b[i];
-                T[j] = i;
+                if ((L[j - a[i]] + b[i] > L[j]) || (L[j] == 0))
+                {
+                    L[j] = L[j - a[i]] + b[i];
+                    T[j] = i;
+                }
             }
         }
     }
