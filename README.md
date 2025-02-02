@@ -1,113 +1,39 @@
-# Simple C++ Algorithms
+# C++ Algorithms Repository
 
-Welcome to the **cpp** project! This repository contains implementations of fundamental algorithms written in C++. It is designed to help beginners understand the basics of algorithm design and implementation.
-
----
+Welcome to the C++ Algorithms Repository! This collection features a variety of algorithms implemented in C++ to aid in learning and reference.
 
 ## Table of Contents
 
+- [Introduction](#introduction)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
+- [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Algorithms Included](#algorithms-included)
 - [Contributing](#contributing)
 - [License](#license)
 
----
+## Introduction
+
+This repository serves as a comprehensive collection of C++ algorithm implementations. It is designed for students, educators, and professionals who seek to understand and apply various algorithms in C++.
 
 ## Features
 
-- Easy-to-understand C++ implementations
-- Examples of fundamental algorithms
-- Beginner-friendly with detailed comments
-- Ready-to-run code
+- A wide range of algorithms covering different domains.
+- Well-documented code with explanations.
+- Organized directory structure for easy navigation.
 
----
+## Getting Started
 
-## Technologies Used
+To get a local copy up and running, follow these steps:
 
-- **Language:** C++
-- **Compiler:** GCC or Clang (supports C++17 or newer)
+### Prerequisites
 
----
+- **C++ Compiler**: Ensure you have a C++ compiler installed (e.g., GCC, Clang).
+- **CMake**: Recommended for building the project.
 
-## Setup and Installation
+### Installation
 
-1. Clone the repository:
+1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/jsjsjsia/cpp.git
-   ```
-2. Navigate to the project directory:
-   ```bash
    cd cpp
-   ```
-3. Compile the code using a C++ compiler:
-   ```bash
-   g++ -std=c++17 -o main main.cpp
-   ```
-4. Run the program:
-   ```bash
-   ./main
-   ```
-
----
-
-## Usage
-
-1. Open the `main.cpp` file to explore the implemented algorithms.
-2. Uncomment the desired algorithm function to see its output.
-3. Modify the input values directly in the code to test different scenarios.
-
----
-
-## Algorithms Included
-
-Here are some of the algorithms included in this project:
-
-1. **Sorting Algorithms**
-   - Bubble Sort
-   - Selection Sort
-   - Insertion Sort
-   - Merge Sort
-
-2. **Searching Algorithms**
-   - Linear Search
-   - Binary Search
-
-3. **Mathematical Algorithms**
-   - Greatest Common Divisor (GCD)
-   - Least Common Multiple (LCM)
-   - Fibonacci Sequence (Iterative and Recursive)
-
-4. **Utility Algorithms**
-   - Factorial Calculation
-   - Prime Number Check
-
----
-
-## Contributing
-
-Contributions are welcome! If you'd like to add new algorithms or improve existing ones:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Commit your changes and push them to your branch.
-4. Create a pull request with a detailed description of your changes.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as needed.
-
----
-
-## Acknowledgments
-
-Special thanks to:
-
-- The C++ community for their resources and tutorials.
-- Open-source contributors for making learning fun and accessible.
-
-Happy coding!
