@@ -7,8 +7,6 @@ Welcome to the C++ Algorithms Repository! This collection features a variety of 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
 
 ## Introduction
 
